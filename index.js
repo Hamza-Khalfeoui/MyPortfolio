@@ -56,5 +56,5 @@ function openmenu(){
   sidemenu.style.left="0";
 }
 function closemenu(){
-  sidemenu.style.left="-240px";
+  sidemenu.style.left="-1240px";
 }

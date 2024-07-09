@@ -1,4 +1,4 @@
-  html{
+ html{
     scroll-behavior: smooth;
   }
 body{
@@ -681,180 +681,380 @@ transform-origin: left;
   margin-top: -40px;
   display: block;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media(max-width:1023px){
- .img{
-  display: flex;
-  justify-content:flex-start;
-  margin-left: -80px;
+@media(max-width:600px){
+  .img{
+   display: flex;
+   justify-content:flex-end;
+   width: 1450px;
+   height: 1400px;
+   margin-left: 100px;
+   margin-top: -300px;
+ 
+  }
+  .nav{
+   margin-left: 100px;
+   
+  }
+  .nav p{
+   font-size: 100px;
+   
+  }
+  
+  
+  
+   .header-text{
+     font-size: 50px;
+     /* margin-left: 10px; */
+   }
+   .header-text h1{
+     font-size: 70px;
+     margin-top: -880px;
+     width: 800px;
+     /* margin-left: -120px; */
+   }
+   .navDet .fas{
+     display: block;
+     font-size: 60px;
+     margin-left: 390px;
+   }
+   .navDet ul{
+     background:rgb(30, 81, 184) ;
+     position: fixed;
+     top:-15px;
+     left: -240px;
+     width: 450px;
+     height: 158vh;
+     padding-top: 50px;
+     z-index:2;
+     transition: 0.5s;
+   }
+   .navDet ul li{
+     display: block;
+     margin: 155px;
+     
+     
+   }
+   .navDet ul li a{
+ background: none;
+ font-size: 40px;
+   }
+   
+   .navDet ul .fas{
+     position: absolute;
+     top: 35px;
+     left: 25px;
+     cursor: pointer;
+   }
+   .fas.fa-bars{
+     margin-left: -200px;
+   margin-top: -120px;
+ font-size: 100px;  }
+   .social{
+     /* margin-left: -90px; */
+     font-size: 60px;
+   }
+    .btn.btn2{
+   width: 240px;
+     padding: 20px;
+     font-size: 35px;
+    }
+    .aboutPic {
+     display:none;
+     
+     /* display: none; */
+    }
+    #About{
+ margin-left: 80px;
+ font-size: 60px;
+ width:1500px;
+ 
+    }
+    .abouttext h1{
+     font-size: 150px;
+    }
+    .abouttext .desc{
+     line-height: 60px;
+     font-size:60px;
+     width: auto;
+    }
+    .tab-titles .tab-links{
+     font-size: 60px;
+    }
+    .tab-det1{
+     display: block;
+     font-size: 60px;
+    }
+    .myServ{
+     margin-left:90px ;
+   
+    }
+    .myServ .subtitle{
+     font-size: 150px;
+     display: block;
+     margin-left: 100px;
+    }
+    .det{
+     display: block;
+    }
+    .design{
+     margin-bottom: 30px;
+     margin-left: 250px;
+       width: 750px;
+       height: 850px;
+       background: #262626;
+       padding: 40px;
+       font-size: 13px;
+       font-weight: 300;
+       border-radius: 20px;
+       transition: background 0.5s,transform 0.5s;
+    }
+    .design i{
+     font-size: 110px;
+    }
+    .design h2{
+     font-size: 70px;
+    }
+    .design span{
+     font-size: 40px;
+    }
+    .myWork{
+     margin-left: 190px;
+    }
+    .myWork .subtitle{
+     font-size: 150px;
+    }
+    .work{
+     margin-left: 200px;
+     height: 1000px;
+     width: 1100px;
+    }
+    .layer h3{
+     font-size: 70px;
+    }
+    .layer p{
+ font-size: 50px;
+    }
+    .myWork .btn{
+     
+       display: block;
+       margin-left:400px;
+       width:200px;
+       height: 100px;
+       border: 7px solid rgb(30, 81, 184);
+       padding-left: 70px;
+       padding-top: 40px;
+       border-radius: 16px;
+       text-decoration: none;
+       color:#fff;
+       font-family: "Poppins", sans-serif;
+       font-style: normal;
+       transition: background 0.5s ;
+       font-size: 40px;
+    
+    }
+    .right{
+     margin-top: 700px;
+     /* margin-left: 80px; */
+       flex-basis: 100%;
+      
+    }
+    .right form input{
+     width: 150%;
+     height:100px;
+     font-size: 30px;
+    }
+    .right form textarea{
+     width: 150%;
+     height:270px;
+     font-size: 30px;
+    }
+ 
+    .right .btn.btn2{
+     margin-left: 150px;
+    }
+    .left h1{
+     margin-left: 90px;
+     font-size: 150px;
+    }
+    .left p{
+     font-size: 40px;
+    }
+    .left p i{
+     font-size: 50px;
+    }
+    .tab-links:after{
+     margin-left:  80px;
+    }
+    .tab-links.ex:after{
+     margin-left: 160px;
+    }
+    .tab-links.ex.active::after{
+     width: 10%;
+     
+   }
+    .tab-links.ed:after{
+     margin-left: 290px;
+    }
+    .tab-links.ed.active::after{
+     width: 10%;
+   }
+   .layer a{
+     margin-top: -50px;
+     line-height: 30px;
+     width: 90px;
+     height: 90px;
+     
+   }
+   .layer i{
+     font-size: 40px;
+     margin-top: 20px;
+   }
+   .layer h3{
+     margin-bottom: 0px;
+   }
+ 
+ #preloader{
+   background: #000 url(R\ \(1\).gif) no-repeat center center;
+   background-size: 15%;
+   height: 102vh;
+   width: 100%;
+   position: fixed;
+   z-index: 100;
  }
  
+ .abouttext p{
+   font-size: 40px;
+ }
+ .bar{
+   font-size: 60px;
+ }
+ .bar i{
+   font-size: 70px;
+   margin-top: -20px;
+ }
  
+ .tab-det1 .bar .info span{
+   font-size: 17px;
+   font-weight: 500;
+   animation: showText 0.5s 1s forwards;
+ }
+ .tab-det1 .bar .progress-line{
+   position: relative;
+   border-radius: 10px;
+ width: 100%;
+ height: 20px;
+ background-color: #262626;
+ animation: animate 1s cubic-bezier(1,0,0.5,1) forwards;
+ transform: scaleX(0);
+ transform-origin: left;
+ }
+ .progress-line span::after{
+   position: absolute;
+   padding: 1px 8px;
+   background-color: #262626;
+   color: #fff;
+   font-size: 32px;
+   border-radius: 3px;
+   top: -58px;
+   right: -20px;
+   animation: showText 0.5s 1.5s linear forwards;
+ }
  
-  .header-text{
-    font-size: 10px;
-    /* margin-left: 10px; */
-  }
-  .header-text h1{
-    font-size: 20px;
-    margin-left: -120px;
-  }
-  .navDet .fas{
-    display: block;
-    font-size: 30px;
-    margin-left: 120px;
-  }
-  .navDet ul{
-    background:rgb(30, 81, 184) ;
-    position: fixed;
-    top:-15px;
-    left: -240px;
-    width: 150px;
-    height: 91vh;
-    padding-top: 50px;
-    z-index:2;
-    transition: 0.5s;
-  }
-  .navDet ul li{
-    display: block;
-    margin: 25px;
-    
-  }
-  .navDet ul li a{
-background: none;
-  }
+ .radial-bars .radial-bar{
+   width: 50%;
+   height: 270px;
+   margin-bottom: 180px;
+   position: relative;
+ }
+ .radial-bars .radial-bar svg{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50% , -50%)rotate(-60deg);
+   width: 420px;
+   height: 460px;
+ }
+ .radial-bar .percentage{
   
-  .navDet ul .fas{
-    position: absolute;
-    top: 35px;
-    left: 25px;
-    cursor: pointer;
-  }
-  .fas.fa-bars{
-    margin-left: -230px;
-  margin-top: 20px;  }
-  .social{
-    margin-left: -120px;
-  }
-   .btn.btn2{
-    margin-left: -100px;
-    padding: 10px;
-    font-size: 15px;
-   }
-   .aboutPic {
-    
-    display: none;
-   }
-   #About{
-margin-left: -80px;
-   }
-   .tab-det1{
-    display: block;
-   }
-   .myServ{
-    margin-left:90px ;
-  
-   }
-   .det{
-    display: block;
-   }
-   .design{
-    margin-bottom: 30px;
-    margin-left: -90px;
-   }
-   .myWork{
-    margin-left: 90px;
-   }
-   .work{
-    margin-left: 10px;
-   }
-   .right{
-    margin-top: 600px;
-    margin-left: -290px;
-   }
-   .right .btn.btn2{
-    margin-left: 150px;
-   }
-   .left h1{
-    margin-left: -90px;
-   }
-   .left p i{
-    margin-left: -90px;
-   }
-   .tab-links:after{
-    margin-left:  80px;
-   }
-   .tab-links.ex:after{
-    margin-left: 160px;
-   }
-   .tab-links.ex.active::after{
-    width: 10%;
-    
-  }
-   .tab-links.ed:after{
-    margin-left: 290px;
-   }
-   .tab-links.ed.active::after{
-    width: 10%;
-  }
-  .layer a{
-    margin-top: 00px;
-    line-height: 30px;
-    width: 30px;
-    height: 30px;
-    
-  }
-  .layer h3{
-    margin-bottom: 0px;
-  }
+   font-size: 57px;
+   font-weight: 500;
+ }
+ .radial-bar .text{
+   position: absolute;
+   text-align:center;
+   right: 70%;
+   top: -10px;
+   transform: translateX(-50%,-50%);
+   font-size: 17px;
+   font-weight: 500;
+   animation: showText 0.5 1s linear forwards;
+   opacity: 0;
+ }
+ .radial-bar .text i{
+   font-size: 98px;
+   margin-left: -220px;
+   margin-top: -40px;
+ }
+ .radial-bar .text1{
+   position: absolute;
+   text-align:center;
+   right: 70%;
+   top: -10px;
+   transform: translateX(-50%,-50%);
+   font-size: 50px;
+   animation: showText 0.5 1s linear forwards;
+   opacity: 0;
+ }
+ .radial-bar .text1 i{
+   font-size: 78px;
+   margin-left: -220px;
+   margin-top: -90px;
+ }
+ .radial-bars span{
+   margin-top: -35px;
+   font-size: 57px;
+ }
 }
-#preloader{
-  background: #000 url(R\ \(1\).gif) no-repeat center center;
-  background-size: 15%;
-  height: 102vh;
-  width: 100%;
-  position: fixed;
-  z-index: 100;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     
