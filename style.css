@@ -847,7 +847,14 @@ margin-left: -80px;
     margin-bottom: 0px;
   }
 }
-
+#preloader{
+  background: #000 url(R\ \(1\).gif) no-repeat center center;
+  background-size: 15%;
+  height: 102vh;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
 
 
     
